@@ -37,7 +37,7 @@ stage('OWASP Dependency Check') {
         script {
             sh '''
             docker run --rm \
-              -v "$(pwd)":/src \
+              -v /var/lib/docker/volumes/jenkins_home/_data/workspace/DevSecOps-Pipeline:/src \
               -v dependency-check-data:/usr/share/dependency-check/data \
               owasp/dependency-check:latest \
               --project "Zomato-App" \
@@ -47,7 +47,6 @@ stage('OWASP Dependency Check') {
               --failOnCVSS 7
             '''
         }
-
         archiveArtifacts artifacts: 'dependency-check-report/dependency-check-report.html', fingerprint: true
     }
 }
