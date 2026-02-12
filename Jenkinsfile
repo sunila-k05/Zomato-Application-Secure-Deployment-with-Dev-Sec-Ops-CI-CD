@@ -22,7 +22,6 @@ stage('Install Dependencies') {
     }
 }
 
-
 stage('SonarCloud Analysis') {
     environment {
         SONAR_TOKEN = credentials('sonarcloud-token')
@@ -35,11 +34,17 @@ stage('SonarCloud Analysis') {
               -Dsonar.projectKey=sunila-k05_Zomato-Application-Secure-Deployment-with-Dev-Sec-Ops-CI-CD \
               -Dsonar.organization=sunila-k05 \
               -Dsonar.host.url=https://sonarcloud.io \
-              -Dsonar.login=$SONAR_TOKEN
+              -Dsonar.sources=src \
+              -Dsonar.exclusions=node_modules/** \
+              -Dsonar.c.file.suffixes=- \
+              -Dsonar.cpp.file.suffixes=- \
+              -Dsonar.objc.file.suffixes=- \
+              -Dsonar.token=${SONAR_TOKEN}
             """
         }
     }
 }
+
 
 
 
