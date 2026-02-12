@@ -23,7 +23,7 @@ stage('Install Dependencies') {
           -v $WORKSPACE:/app \
           -w /app \
           node:18 \
-          bash -c "npm install && chown -R 1000:1000 /app"
+          bash -c "npm install"
         '''
     }
 }
