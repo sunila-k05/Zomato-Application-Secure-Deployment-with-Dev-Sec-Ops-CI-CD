@@ -27,7 +27,7 @@ stage('OWASP Dependency Check') {
         script {
             sh '''
             docker run --rm \
-              -v $(pwd):/src \
+              -v "$(pwd)":/src \
               -v dependency-check-data:/usr/share/dependency-check/data \
               owasp/dependency-check:latest \
               --project "Zomato-App" \
