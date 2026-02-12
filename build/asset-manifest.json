@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40af8486.chunk.css",
+    "main.js": "/static/js/main.11c32e7a.chunk.js",
+    "main.js.map": "/static/js/main.11c32e7a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e6bd3e7c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e6bd3e7c.js.map",
+    "static/js/2.4748f581.chunk.js": "/static/js/2.4748f581.chunk.js",
+    "static/js/2.4748f581.chunk.js.map": "/static/js/2.4748f581.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c3dd22077acc8fcb8c33b18a7b58440d.js": "/precache-manifest.c3dd22077acc8fcb8c33b18a7b58440d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.40af8486.chunk.css.map": "/static/css/main.40af8486.chunk.css.map",
+    "static/js/2.4748f581.chunk.js.LICENSE.txt": "/static/js/2.4748f581.chunk.js.LICENSE.txt",
+    "static/media/App-Store.png": "/static/media/App-Store.e3029d12.png",
+    "static/media/Header.scss": "/static/media/BackGround.322fba96.png",
+    "static/media/Dine-Out.png": "/static/media/Dine-Out.8d49ce7e.png",
+    "static/media/Google-Play.png": "/static/media/Google-Play.ecd5268b.png",
+    "static/media/Iphone.png": "/static/media/Iphone.47511975.png",
+    "static/media/Night-Life.png": "/static/media/Night-Life.7364793e.png",
+    "static/media/Online-Food.png": "/static/media/Online-Food.158e724a.png",
+    "static/media/Zomato-Logo.png": "/static/media/Zomato-Logo.b1f4ce99.png",
+    "static/media/blackLogo.webp": "/static/media/blackLogo.e0bfd4e1.webp",
+    "static/media/collection1.webp": "/static/media/collection1.feb9cdf5.webp",
+    "static/media/collection2.webp": "/static/media/collection2.8a043fb2.webp",
+    "static/media/collection3.webp": "/static/media/collection3.c4cab5a6.webp",
+    "static/media/collection4.webp": "/static/media/collection4.bb7b9d55.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6bd3e7c.js",
+    "static/js/2.4748f581.chunk.js",
+    "static/css/main.40af8486.chunk.css",
+    "static/js/main.11c32e7a.chunk.js"
+  ]
+}
