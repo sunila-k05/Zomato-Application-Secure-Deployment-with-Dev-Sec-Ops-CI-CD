@@ -20,10 +20,10 @@ stage('Install Dependencies') {
     steps {
         sh '''
         docker run --rm \
-          -v $WORKSPACE:/app \
+          -v "$WORKSPACE:/app" \
           -w /app \
           node:18 \
-          bash -c "npm install"
+          npm install
         '''
     }
 }
