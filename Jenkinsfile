@@ -16,19 +16,16 @@ pipeline {
             }
         }
 
-
 stage('Install Dependencies') {
     steps {
-        script {
-            sh '''
-            docker run --rm \
-              -u 1000:1000 \
-              -v /var/lib/docker/volumes/jenkins_home/_data/workspace/DevSecOps-Pipeline:/app \
-              -w /app \
-              node:18 \
-              npm install
-            '''
-        }
+        sh '''
+        docker run --rm \
+          -u $(id -u):$(id -g) \
+          -v $WORKSPACE:/app \
+          -w /app \
+          node:18 \
+          npm install
+        '''
     }
 }
 
