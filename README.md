@@ -1,8 +1,5 @@
-# 🍽️ **Zomato Clone: Secure Deployment with DevSecOps CI/CD**  
-
-![Zomato Clone](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*X_hm5iF0NRjbOZHB6RQIFA.jpeg)  
-
-🚀 **A full-stack Zomato Clone with DevSecOps integration for a secure and scalable deployment.**  
+🚀 **A full-stack Zomato Clone with DevSecOps integration for a secure and scalable deployment.**
+ ![Zomato Clone](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*X_hm5iF0NRjbOZHB6RQIFA.jpeg)  
 
 This **Zomato Clone: Secure Deployment with DevSecOps CI/CD** repository is a **full-stack food delivery application** inspired by Zomato. It includes a **React.js frontend** and integrates DevSecOps practices to ensure a secure and automated deployment pipeline.  
 
